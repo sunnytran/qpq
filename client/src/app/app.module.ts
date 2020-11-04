@@ -8,7 +8,9 @@ import { WinnersComponent } from './winners/winners.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LayoutComponent } from './layout/layout.component';
 
+import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,14 +18,17 @@ import { HttpClientModule } from '@angular/common/http';
     PromptComponent,
     WinnersComponent,
     NavbarComponent,
-    LayoutComponent
+    LayoutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
+    CommonModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

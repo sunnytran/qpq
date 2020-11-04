@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+
 import { PromptService } from '../services/prompt.service';
+
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-prompt',
@@ -8,17 +11,26 @@ import { PromptService } from '../services/prompt.service';
 })
 export class PromptComponent implements OnInit {
   prompt: { id: number; isUsed: boolean; promptText: string };
+  quipForm;
 
-  constructor(private service: PromptService) {}
+  constructor(
+    private promptService: PromptService,
+    private formBuilder: FormBuilder
+  ) {
+    this.quipForm = this.formBuilder.group({
+      quipText: '',
+    });
+  }
 
-  loadPrompt() {
+  ngOnInit(): void {
     // this.service.getPrompts().subscribe((res) => (this.prompts = res.prompts));
-    this.service
+    this.promptService
       .getFirstUnusedPrompt()
       .subscribe((res) => (this.prompt = res.prompt));
   }
 
-  ngOnInit(): void {
-    this.loadPrompt();
+  onSubmit(quipData) {
+    this.quipForm.reset();
+    console.log(quipData);
   }
 }
