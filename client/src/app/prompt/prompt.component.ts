@@ -23,7 +23,6 @@ export class PromptComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    // this.service.getPrompts().subscribe((res) => (this.prompts = res.prompts));
     this.promptService
       .getFirstUnusedPrompt()
       .subscribe((res) => (this.prompt = res.prompt));

@@ -1,1 +1,11 @@
-<p>winners works!</p>
+<div *ngIf="quips">
+  <app-prompt-card *ngFor="let c of prompts" [title]="c.promptText">
+    <div *ngIf="quips">
+      <ul *ngFor="let d of getQuipsByPromptId(c.id)">
+        {{
+          d.quipText
+        }}
+      </ul>
+    </div>
+  </app-prompt-card>
+</div>

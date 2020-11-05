@@ -11,6 +11,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PromptCardComponent } from './prompt-card/prompt-card.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     WinnersComponent,
     NavbarComponent,
     LayoutComponent,
+    PromptCardComponent,
   ],
   imports: [
     BrowserModule,

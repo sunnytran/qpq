@@ -9,6 +9,10 @@ import { Observable } from 'rxjs';
 export class QuipService {
   constructor(private http: HttpClient) {}
 
+  getQuips(): Observable<QuipsResponse> {
+    return this.http.get<QuipsResponse>('http://localhost:5000/Quip');
+  }
+
   getQuipsByPromptId(id: number): Observable<QuipsResponse> {
     return this.http.get<QuipsResponse>(
       `http://localhost:5000/Prompt/?promptId=${id}`
