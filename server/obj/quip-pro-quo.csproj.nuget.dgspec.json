@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\south\\Desktop\\projects\\quip-pro-quo\\server\\quip-pro-quo.csproj": {}
+    "C:\\Users\\south\\Desktop\\projects\\qpq\\server\\quip-pro-quo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\south\\Desktop\\projects\\quip-pro-quo\\server\\quip-pro-quo.csproj": {
+    "C:\\Users\\south\\Desktop\\projects\\qpq\\server\\quip-pro-quo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\south\\Desktop\\projects\\quip-pro-quo\\server\\quip-pro-quo.csproj",
+        "projectUniqueName": "C:\\Users\\south\\Desktop\\projects\\qpq\\server\\quip-pro-quo.csproj",
         "projectName": "quip-pro-quo",
-        "projectPath": "C:\\Users\\south\\Desktop\\projects\\quip-pro-quo\\server\\quip-pro-quo.csproj",
+        "projectPath": "C:\\Users\\south\\Desktop\\projects\\qpq\\server\\quip-pro-quo.csproj",
         "packagesPath": "C:\\Users\\south\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\south\\Desktop\\projects\\quip-pro-quo\\server\\obj\\",
+        "outputPath": "C:\\Users\\south\\Desktop\\projects\\qpq\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\south\\AppData\\Roaming\\NuGet\\NuGet.Config"

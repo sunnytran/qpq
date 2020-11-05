@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using server.Services.PromptService;
+using server.Services.QuipService;
 
 namespace quip_pro_quo
 {
@@ -28,6 +29,7 @@ namespace quip_pro_quo
         {
             services.AddControllers();
             services.AddScoped<IPromptService, PromptService>();
+            services.AddScoped<IQuipService, QuipService>();
             services.AddCors();
         }
 

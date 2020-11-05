@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TZs5rRcoua5C+J/Q+VqOVKiT7NlBhJLzzaYeJJ48rGJATSAZS9J/pUtesnzmj5XXJH+1Uwg+3zNwR1OyJMh2Eg==",
+  "dgSpecHash": "6SRlvmlJhWMRTfzFFcdiPX+BdmjKhfo/PjFEM+2I2N3fBoY2lxZ772elcnZjMzk9xxJh3qI1KcMuv9Aum7g4zA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\south\\Desktop\\projects\\quip-pro-quo\\server\\quip-pro-quo.csproj",
+  "projectFilePath": "C:\\Users\\south\\Desktop\\projects\\qpq\\server\\quip-pro-quo.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
